@@ -1,0 +1,67 @@
+body{
+
+/*MARGIN = MARGEN EXTERNA
+PADDING = MARGEN INTERNA*/
+    margin: 0;
+    padding: 0;
+    background: url("../img/quaid-lagan-rUpPf9grv0Q-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 110vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+}
+
+
+h1{
+/*FORNT-SIZE= TAMAÑO DE FUENTE*/
+color: #020202;
+font-size: 45px;  
+margin-top: 80px; 
+
+
+}
+
+h2{
+
+    color: rgba(0, 0, 0, 0.568);
+    font-size: 35px;
+}
+
+p{      
+
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    margin-bottom: 120px;
+
+
+}
+
+button{
+
+    padding: 10px 30px;
+    margin: 12px;
+    background-color: #0a2964;
+    border: 2px; 
+    cursor: pointer; 
+    color: #ffffff;
+    transition: 1S;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*hover es un estado de los elementos al pasar el cursor*/
+button:hover{
+
+background-color: transparent;
+color:#00ff55;
+padding: 15px 50px;
+
+}
